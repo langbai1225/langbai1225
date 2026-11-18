@@ -56,8 +56,8 @@
   │  IDENTITY VERIFICATION                                         │
   ├────────────────────────────────────────────────────────────────┤
   │                                                                │
-  │   CALLSIGN ....... langbai1225                                   │
-  │   CLASS .......... Developer                                  │
+  │   CALLSIGN ....... langbai1225                                 │
+  │   CLASS .......... Developer                                   │
   │   ORIGIN ......... YOUR_CITY, EARTH                            │
   │   MISSION ........ 在 [领域] 方向持续构建与探索                │
   │                                                                │
