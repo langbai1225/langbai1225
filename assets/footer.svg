@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" font-family="Consolas, Menlo, 'Courier New', monospace">
+  <defs>
+    <linearGradient id="fg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#040b1a"/>
+      <stop offset="1" stop-color="#01040b"/>
+    </linearGradient>
+    <radialGradient id="fh" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#5aa9ff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#5aa9ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="f1" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#5aa9ff" fill-opacity="0.07"/>
+    </pattern>
+    <filter id="fglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="120" fill="url(#fg)"/>
+  <rect width="1200" height="120" fill="url(#f1)"/>
+  <ellipse cx="600" cy="58" rx="430" ry="90" fill="url(#fh)"/>
+
+  <g stroke="#5aa9ff" stroke-opacity="0.55" stroke-width="1.4" filter="url(#fglow)">
+    <line x1="100" y1="30" x2="420" y2="30"/>
+    <line x1="780" y1="30" x2="1100" y2="30"/>
+  </g>
+  <g fill="#5aa9ff">
+    <rect x="426" y="26" width="9" height="9" transform="rotate(45 430.5 30.5)"/>
+    <rect x="765" y="26" width="9" height="9" transform="rotate(45 769.5 30.5)"/>
+  </g>
+
+  <text x="600" y="26" fill="#5aa9ff" font-size="15" letter-spacing="6" text-anchor="middle" fill-opacity="0.9">END OF TRANSMISSION</text>
+  <text x="600" y="66" fill="#5aa9ff" fill-opacity="0.55" font-size="12" letter-spacing="3" text-anchor="middle">SIGNAL CLOSED · UPLINK IDLE · AWAITING NEXT COMMAND</text>
+
+  <g fill="#5aa9ff" opacity="0.75">
+    <rect x="600" y="80" width="11" height="15" filter="url(#fglow)">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <text x="600" y="104" fill="#5aa9ff" fill-opacity="0.35" font-size="11" letter-spacing="2" text-anchor="middle">© langbai1225 — BUILT IN THE TERMINAL</text>
+</svg>

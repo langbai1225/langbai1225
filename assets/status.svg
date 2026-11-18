@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" font-family="Consolas, Menlo, 'Courier New', monospace">
+  <defs>
+    <linearGradient id="sg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06101f"/>
+      <stop offset="1" stop-color="#02060e"/>
+    </linearGradient>
+    <pattern id="s1" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#5aa9ff" fill-opacity="0.07"/>
+    </pattern>
+    <filter id="gg" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="240" fill="url(#sg)"/>
+  <rect width="1200" height="240" fill="url(#s1)"/>
+  <rect x="10" y="10" width="1180" height="220" rx="8" fill="none" stroke="#5aa9ff" stroke-opacity="0.4" stroke-width="1.4"/>
+
+  <!-- HEADER -->
+  <text x="34" y="42" fill="#5aa9ff" fill-opacity="0.85" font-size="13" letter-spacing="3">▚ SYSTEM TELEMETRY // NODE-07</text>
+  <line x1="34" y1="56" x2="1166" y2="56" stroke="#5aa9ff" stroke-opacity="0.3"/>
+
+  <!-- COLUMN 1 : GAUGES -->
+  <g font-size="12">
+    <text x="34" y="84" fill="#5aa9ff" fill-opacity="0.7">CORE LOAD</text>
+    <text x="34" y="112" fill="#3f9be8">CPU</text>
+    <text x="34" y="136" fill="#3f9be8">GPU</text>
+    <text x="34" y="160" fill="#3f9be8">MEM</text>
+    <text x="34" y="184" fill="#3f9be8">NET</text>
+    <text x="34" y="208" fill="#3f9be8">DISK</text>
+  </g>
+
+  <!-- BARS -->
+  <g>
+    <!-- CPU -->
+    <rect x="86" y="102" width="220" height="10" fill="#5aa9ff" fill-opacity="0.12" stroke="#5aa9ff" stroke-opacity="0.35"/>
+    <rect x="86" y="102" width="142" height="10" fill="#5aa9ff" fill-opacity="0.85" filter="url(#gg)"/>
+    <text x="316" y="112" fill="#a8d4ff" font-size="12">64%</text>
+    <!-- GPU -->
+    <rect x="86" y="126" width="220" height="10" fill="#5aa9ff" fill-opacity="0.12" stroke="#5aa9ff" stroke-opacity="0.35"/>
+    <rect x="86" y="126" width="173" height="10" fill="#5aa9ff" fill-opacity="0.85" filter="url(#gg)"/>
+    <text x="316" y="136" fill="#a8d4ff" font-size="12">78%</text>
+    <!-- MEM -->
+    <rect x="86" y="150" width="220" height="10" fill="#5aa9ff" fill-opacity="0.12" stroke="#5aa9ff" stroke-opacity="0.35"/>
+    <rect x="86" y="150" width="118" height="10" fill="#5aa9ff" fill-opacity="0.85" filter="url(#gg)"/>
+    <text x="316" y="160" fill="#a8d4ff" font-size="12">53%</text>
+    <!-- NET -->
+    <rect x="86" y="174" width="220" height="10" fill="#5aa9ff" fill-opacity="0.12" stroke="#5aa9ff" stroke-opacity="0.35"/>
+    <rect x="86" y="174" width="196" height="10" fill="#5aa9ff" fill-opacity="0.85" filter="url(#gg)"/>
+    <text x="316" y="184" fill="#a8d4ff" font-size="12">89%</text>
+    <!-- DISK -->
+    <rect x="86" y="198" width="220" height="10" fill="#5aa9ff" fill-opacity="0.12" stroke="#5aa9ff" stroke-opacity="0.35"/>
+    <rect x="86" y="198" width="91" height="10" fill="#5aa9ff" fill-opacity="0.85" filter="url(#gg)"/>
+    <text x="316" y="208" fill="#a8d4ff" font-size="12">41%</text>
+  </g>
+
+  <!-- COLUMN 2 : ASCII WAVE -->
+  <g stroke="#5aa9ff" stroke-opacity="0.3">
+    <line x1="400" y1="56" x2="400" y2="220"/>
+  </g>
+  <text x="424" y="84" fill="#5aa9ff" fill-opacity="0.7" font-size="12" letter-spacing="2">SIGNAL SPECTRUM</text>  <g fill="#5aa9ff">
+    <rect x="424" y="106" width="6" height="28" opacity="0.35"/>
+    <rect x="436" y="100" width="6" height="40" opacity="0.5"/>
+    <rect x="448" y="112" width="6" height="16" opacity="0.28"/>
+    <rect x="460" y="92" width="6" height="56" opacity="0.8"/>
+    <rect x="472" y="104" width="6" height="32" opacity="0.45"/>
+    <rect x="484" y="116" width="6" height="8"  opacity="0.22"/>
+    <rect x="496" y="98" width="6" height="44" opacity="0.62"/>
+    <rect x="508" y="108" width="6" height="24" opacity="0.38"/>
+    <rect x="520" y="86" width="6" height="68" opacity="0.9"/>
+    <rect x="532" y="102" width="6" height="36" opacity="0.5"/>
+    <rect x="544" y="114" width="6" height="12" opacity="0.25"/>
+    <rect x="556" y="96" width="6" height="48" opacity="0.7"/>
+    <rect x="568" y="110" width="6" height="20" opacity="0.33"/>
+    <rect x="580" y="90" width="6" height="60" opacity="0.85"/>
+    <rect x="592" y="106" width="6" height="30" opacity="0.42"/>
+    <rect x="604" y="118" width="6" height="6"  opacity="0.2"/>
+    <rect x="616" y="100" width="6" height="42" opacity="0.66"/>
+    <rect x="628" y="112" width="6" height="18" opacity="0.3"/>
+    <rect x="640" y="104" width="6" height="34" opacity="0.5"/>
+    <rect x="652" y="122" width="6" height="4"  opacity="0.18"/>
+  </g>
+  <line x1="424" y1="134" x2="658" y2="134" stroke="#5aa9ff" stroke-opacity="0.55" stroke-width="1.2"/>
+
+  <!-- COLUMN 3 : LOG -->
+  <g stroke="#5aa9ff" stroke-opacity="0.3">
+    <line x1="690" y1="56" x2="690" y2="220"/>
+  </g>
+  <text x="714" y="84" fill="#5aa9ff" fill-opacity="0.7" font-size="12" letter-spacing="2">EVENT STREAM</text>
+  <g font-size="11.5">
+    <text x="714" y="106" fill="#3f9be8">[02:14] uplink.stable</text>
+    <text x="714" y="126" fill="#3f9be8">[02:47] build.deployed → main</text>
+    <text x="714" y="146" fill="#3f9be8">[03:02] repo.scanned</text>
+    <text x="714" y="166" fill="#3f9be8">[03:38] coffee.brewed</text>
+    <text x="714" y="186" fill="#3f9be8">[04:11] node.armed</text>
+    <text x="714" y="206" fill="#3f9be8">[04:55] awaiting.order</text>
+  </g>
+
+  <!-- FOOTER TICKS -->
+  <g fill="#5aa9ff" opacity="0.4">
+    <rect x="34" y="218" width="4" height="4"/><rect x="44" y="218" width="4" height="4" opacity="0.7"/>
+    <rect x="54" y="218" width="4" height="4" opacity="0.5"/><rect x="64" y="218" width="4" height="4" opacity="0.3"/>
+    <rect x="74" y="218" width="4" height="4" opacity="0.18"/><rect x="84" y="218" width="4" height="4" opacity="0.12"/>
+  </g>
+</svg>

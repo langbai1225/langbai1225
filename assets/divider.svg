@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70" font-family="Consolas, Menlo, 'Courier New', monospace">
+  <defs>
+    <linearGradient id="dg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5aa9ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#5aa9ff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#5aa9ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dg2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5aa9ff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#5aa9ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dg3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5aa9ff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#5aa9ff" stop-opacity="0.85"/>
+    </linearGradient>
+    <filter id="dglow" x="-40%" y="-200%" width="180%" height="500%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="70" fill="#02060e"/>
+
+  <!-- left line: fades in toward center -->
+  <line x1="0" y1="35" x2="440" y2="35" stroke="url(#dg2)" stroke-width="1.4"/>
+  <!-- right line: fades out toward right -->
+  <line x1="760" y1="35" x2="1200" y2="35" stroke="url(#dg3)" stroke-width="1.4"/>
+
+  <!-- left tick blocks, fading out toward center -->
+  <g fill="#5aa9ff">
+    <rect x="300" y="32" width="6" height="6" opacity="0.9"/>
+    <rect x="312" y="32" width="6" height="6" opacity="0.75"/>
+    <rect x="324" y="32" width="6" height="6" opacity="0.6"/>
+    <rect x="336" y="32" width="6" height="6" opacity="0.48"/>
+    <rect x="348" y="32" width="6" height="6" opacity="0.38"/>
+    <rect x="360" y="32" width="6" height="6" opacity="0.29"/>
+    <rect x="372" y="32" width="6" height="6" opacity="0.22"/>
+    <rect x="384" y="32" width="6" height="6" opacity="0.16"/>
+    <rect x="396" y="32" width="6" height="6" opacity="0.12"/>
+    <rect x="408" y="32" width="6" height="6" opacity="0.09"/>
+  </g>
+
+  <!-- right tick blocks, fading out toward right -->
+  <g fill="#5aa9ff">
+    <rect x="792" y="32" width="6" height="6" opacity="0.09"/>
+    <rect x="804" y="32" width="6" height="6" opacity="0.12"/>
+    <rect x="816" y="32" width="6" height="6" opacity="0.16"/>
+    <rect x="828" y="32" width="6" height="6" opacity="0.22"/>
+    <rect x="840" y="32" width="6" height="6" opacity="0.29"/>
+    <rect x="852" y="32" width="6" height="6" opacity="0.38"/>
+    <rect x="864" y="32" width="6" height="6" opacity="0.48"/>
+    <rect x="876" y="32" width="6" height="6" opacity="0.6"/>
+    <rect x="888" y="32" width="6" height="6" opacity="0.75"/>
+    <rect x="900" y="32" width="6" height="6" opacity="0.9"/>
+  </g>
+
+  <!-- center diamonds -->
+  <g fill="#5aa9ff" filter="url(#dglow)">
+    <rect x="450" y="31" width="9" height="9" transform="rotate(45 454.5 35.5)"/>
+    <rect x="741" y="31" width="9" height="9" transform="rotate(45 745.5 35.5)"/>
+  </g>
+
+  <!-- center label -->
+  <text x="600" y="41" fill="#5aa9ff" font-size="13" letter-spacing="5" text-anchor="middle" fill-opacity="0.9">· SYS ·</text>
+</svg>

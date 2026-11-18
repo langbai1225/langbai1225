@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" font-family="Consolas, Menlo, 'Courier New', monospace">
+  <defs>
+    <linearGradient id="bez" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2434"/>
+      <stop offset="1" stop-color="#0a1018"/>
+    </linearGradient>
+    <radialGradient id="scr" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0" stop-color="#050c1c"/>
+      <stop offset="0.7" stop-color="#02060e"/>
+      <stop offset="1" stop-color="#01040c"/>
+    </radialGradient>
+    <pattern id="sc2" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="1" fill="#5aa9ff" fill-opacity="0.09"/>
+    </pattern>
+    <filter id="g2" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bezelglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="#040c1a"/>
+
+  <!-- BEZEL -->
+  <rect x="18" y="14" width="1164" height="272" rx="18" fill="url(#bez)" stroke="#5aa9ff" stroke-opacity="0.35" stroke-width="1.5"/>
+  <rect x="34" y="30" width="1132" height="240" rx="10" fill="url(#scr)" stroke="#5aa9ff" stroke-opacity="0.55" stroke-width="1.2"/>
+
+  <!-- TITLE BAR -->
+  <path d="M34 40 a10 10 0 0 1 10-10 h1112 a10 10 0 0 1 10 10 v20 H34 Z" fill="#0c1424" fill-opacity="0.9"/>
+  <line x1="34" y1="60" x2="1166" y2="60" stroke="#5aa9ff" stroke-opacity="0.35" stroke-width="1"/>
+  <circle cx="56" cy="45" r="6" fill="#5aa9ff" opacity="0.9"/>
+  <circle cx="78" cy="45" r="6" fill="#5aa9ff" opacity="0.45"/>
+  <circle cx="100" cy="45" r="6" fill="#5aa9ff" opacity="0.22"/>
+  <text x="600" y="50" fill="#5aa9ff" fill-opacity="0.7" font-size="12" letter-spacing="3" text-anchor="middle">operator@nexus:~ — /home/operator</text>
+
+  <!-- SCREEN CONTENT -->
+  <g font-size="14" letter-spacing="0.6">
+    <text x="60" y="92" fill="#3f9be8">$ ssh uplink@orbital-node-07</text>
+    <text x="60" y="116" fill="#5aa9ff" fill-opacity="0.45">authenticating ...................... done</text>
+    <text x="60" y="140" fill="#3f9be8">$ cat ./identity.profile</text>
+
+    <text x="60" y="170" fill="#a8d4ff">NAME     : langbai1225</text>
+    <text x="60" y="192" fill="#a8d4ff">ROLE     : Developer</text>
+    <text x="60" y="214" fill="#a8d4ff">FOCUS    : AI · SYSTEMS · INTERFACES</text>
+    <text x="60" y="236" fill="#a8d4ff">STATUS   : <tspan fill="#5aa9ff">ONLINE</tspan>   COORD: <tspan fill="#5aa9ff">38.9°N 121.6°W</tspan></text>
+  </g>
+
+  <!-- CURSOR LINE -->
+  <text x="60" y="260" fill="#3f9be8">$</text>
+  <rect x="76" y="248" width="9" height="14" fill="#5aa9ff" filter="url(#g2)">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- SCANLINES + VIGNETTE -->
+  <rect x="34" y="30" width="1132" height="240" rx="10" fill="url(#sc2)"/>
+  <radialGradient id="vig" cx="0.5" cy="0.5" r="0.72">
+    <stop offset="0.55" stop-color="#5aa9ff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000000" stop-opacity="0.55"/>
+  </radialGradient>
+  <rect x="34" y="30" width="1132" height="240" rx="10" fill="url(#vig)"/>
+
+  <!-- CORNER BRACKETS -->
+  <g stroke="#5aa9ff" stroke-opacity="0.85" stroke-width="2" fill="none" filter="url(#bezelglow)">
+    <path d="M34 78 L34 40 Q34 30 44 30 L74 30"/>
+    <path d="M1166 78 L1166 40 Q1166 30 1156 30 L1126 30"/>
+    <path d="M34 222 L34 260 Q34 270 44 270 L74 270"/>
+    <path d="M1166 222 L1166 260 Q1166 270 1156 270 L1126 270"/>
+  </g>
+</svg>
