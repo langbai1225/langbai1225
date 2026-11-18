@@ -27,14 +27,14 @@
 
 ### `> 接入终端 ... 已建立安全信道`
 
-**[YOUR_NAME](https://github.com/YOUR_HANDLE)** · `YOUR_TITLE` · 🌐 `Remote-First` · ⚡ `Always Building`
+**[langbai1225](https://github.com/langbai1225)** · `Developer` · 🌐 `Remote-First` · ⚡ `Always Building`
 
 <br>
 
-<a href="https://github.com/YOUR_HANDLE"><img src="https://img.shields.io/badge/GitHub-YOUR_HANDLE-5aa9ff?style=for-the-badge&logo=github&logoColor=000000" alt="GitHub"/></a>
-<a href="https://linkedin.com/in/YOUR_HANDLE"><img src="https://img.shields.io/badge/LinkedIn-YOUR_HANDLE-5aa9ff?style=for-the-badge&logo=linkedin&logoColor=000000" alt="LinkedIn"/></a>
-<a href="https://twitter.com/YOUR_HANDLE"><img src="https://img.shields.io/badge/X-YOUR_HANDLE-5aa9ff?style=for-the-badge&logo=x&logoColor=000000" alt="X"/></a>
-<a href="https://YOUR_HANDLE.dev"><img src="https://img.shields.io/badge/Website-YOUR_HANDLE.dev-5aa9ff?style=for-the-badge&logo=googlechrome&logoColor=000000" alt="Website"/></a>
+<a href="https://github.com/langbai1225"><img src="https://img.shields.io/badge/GitHub-langbai1225-5aa9ff?style=for-the-badge&logo=github&logoColor=000000" alt="GitHub"/></a>
+<a href="https://linkedin.com/in/langbai1225"><img src="https://img.shields.io/badge/LinkedIn-langbai1225-5aa9ff?style=for-the-badge&logo=linkedin&logoColor=000000" alt="LinkedIn"/></a>
+<a href="https://twitter.com/langbai1225"><img src="https://img.shields.io/badge/X-langbai1225-5aa9ff?style=for-the-badge&logo=x&logoColor=000000" alt="X"/></a>
+<a href="https://langbai1225.dev"><img src="https://img.shields.io/badge/Website-langbai1225.dev-5aa9ff?style=for-the-badge&logo=googlechrome&logoColor=000000" alt="Website"/></a>
 <a href="mailto:YOU@EXAMPLE.COM"><img src="https://img.shields.io/badge/Mail-YOU@EXAMPLE.COM-5aa9ff?style=for-the-badge&logo=gmail&logoColor=000000" alt="Email"/></a>
 
 </div>
@@ -56,8 +56,8 @@
   │  IDENTITY VERIFICATION                                         │
   ├────────────────────────────────────────────────────────────────┤
   │                                                                │
-  │   CALLSIGN ....... YOUR_NAME                                   │
-  │   CLASS .......... YOUR_TITLE                                  │
+  │   CALLSIGN ....... langbai1225                                   │
+  │   CLASS .......... Developer                                  │
   │   ORIGIN ......... YOUR_CITY, EARTH                            │
   │   MISSION ........ 在 [领域] 方向持续构建与探索                │
   │                                                                │
@@ -69,8 +69,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_HANDLE&show_icons=true&theme=cobalt&hide_border=true&include_border=true&rank_icon=github" alt="STATS" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=YOUR_HANDLE&layout=compact&theme=cobalt&hide_border=true&include_border=true" alt="LANGS" width="32%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=langbai1225&show_icons=true&theme=cobalt&hide_border=true&include_border=true&rank_icon=github" alt="STATS" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=langbai1225&layout=compact&theme=cobalt&hide_border=true&include_border=true" alt="LANGS" width="32%"/>
 
 </div>
 
@@ -171,8 +171,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_HANDLE&repo=PROJECT_ONE&theme=cobalt&hide_border=true" alt="PIN" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_HANDLE&repo=PROJECT_TWO&theme=cobalt&hide_border=true" alt="PIN" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=langbai1225&repo=PROJECT_ONE&theme=cobalt&hide_border=true" alt="PIN" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=langbai1225&repo=PROJECT_TWO&theme=cobalt&hide_border=true" alt="PIN" width="49%"/>
 
 </div>
 
@@ -200,7 +200,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_HANDLE&theme=cobalt&no-frame=true&no-bg=true&column=7" alt="TROPHY" width="80%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=langbai1225&theme=cobalt&no-frame=true&no-bg=true&column=7" alt="TROPHY" width="80%"/>
 
 </div>
 
@@ -235,8 +235,8 @@
   │  如需建立连接，请使用以下频段：        │
   │                                        │
   │   [ EMAIL ]  YOU@EXAMPLE.COM           │
-  │   [ GITHUB ] github.com/YOUR_HANDLE    │
-  │   [ SITE  ]  YOUR_HANDLE.dev           │
+  │   [ GITHUB ] github.com/langbai1225    │
+  │   [ SITE  ]  langbai1225.dev           │
   │                                        │
   │   响应时间：通常 24h 内                │
   └────────────────────────────────────────┘
@@ -256,9 +256,9 @@
 ══════════════════════════════════════════════════════════════════
   ⚙  配置说明（发布前请替换以下占位符）
 
-  YOUR_HANDLE   →  你的 GitHub 用户名
-  YOUR_NAME     →  你的昵称 / 艺名
-  YOUR_TITLE    →  你的头衔，如 "Full-Stack Engineer"
+  langbai1225   →  你的 GitHub 用户名
+  langbai1225     →  你的昵称 / 艺名
+  Developer    →  你的头衔，如 "Full-Stack Engineer"
   YOUR_CITY     →  你的城市
   YOU@EXAMPLE.COM → 你的邮箱
   PROJECT_ONE / TWO / THREE → 你的项目名
@@ -268,7 +268,7 @@
   1. 新建一个仓库，名字必须与你的用户名完全相同（如 tang/tang）
   2. 把本目录下的 README.md 和 assets/ 文件夹放进去
   3. 仓库设为 Public，Settings → Pages → Source 选 main 分支
-  4. 访问 https://YOUR_HANDLE.github.io 即可看到独立站点版
+  4. 访问 https://langbai1225.github.io 即可看到独立站点版
 
   🐍 可选：贡献曲线小蛇
   若想启用 snake 动画，需在仓库加入 Platane/snk 的 Action 工作流，
